@@ -2,16 +2,16 @@
     box-sizing: border-box;
     padding:0px;
     margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav{
-    background-color:#426620 ;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  17px 17px 12px #d6d6d6, 
+                 -17px -17px 12px #ffffff;    
     display: flex;
     align-items: center;
     justify-content: space-between;
-            font-size: 15px;
-            font-weight: 400;
-            color: white;
+    font-size: 15px;
     padding: 2em;
     .logo{
         padding: 1em;
@@ -21,11 +21,11 @@ nav{
         list-style-type: none;
         a{
             text-decoration: none;
-            color: white;
+            color: black;
             padding: 10px;
             transition: all 0.3s ease .3s;
             &:hover{
-            border: solid 1px white;
+            border: solid 1px rgb(105, 102, 102);
             }
         }
         .nav-item{
@@ -42,12 +42,43 @@ nav{
 .banner{
     height: 80vh;
     width: 100%;
-    background-color: #426620;
 }
-.card{
 
-    border-radius: 25px;
-    background: #426620;
-    box-shadow:  7px 7px 6px #3d5f1e,
-                 -7px -7px 6px #476d22;
-}
+.cards{
+    margin: 3rem 15rem;
+    display: flex;
+    justify-content: space-between;
+    .card {
+        padding: 2rem;
+        min-width: 200px;
+        min-height: 200px;
+        border-radius: 43px;
+        background: linear-gradient(145deg, #ffffff, #e6e6e6);
+        box-shadow:  17px 17px 12px #d6d6d6, 
+                     -17px -17px 12px #ffffff;
+    }
+  }
+
+  .blocks{
+    margin: 1rem;
+   .block{
+       margin: 2rem;
+       padding:2rem;
+       border-radius: 10px;
+       background: linear-gradient(145deg, #ffffff, #e6e6e6);
+       box-shadow:  17px 17px 12px #d6d6d6, 
+                    -17px -17px 12px #ffffff;
+   }
+  }
+
+  footer{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    .address{
+
+    }
+
+  }

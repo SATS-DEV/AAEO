@@ -3,11 +3,13 @@
           box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav {
-  background-color: #426620;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  -webkit-box-shadow: 17px 17px 12px #d6d6d6,  -17px -17px 12px #ffffff;
+          box-shadow: 17px 17px 12px #d6d6d6,  -17px -17px 12px #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,8 +20,6 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 15px;
-  font-weight: 400;
-  color: white;
   padding: 2em;
 }
 
@@ -34,14 +34,14 @@ nav ul {
 
 nav ul a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 10px;
   -webkit-transition: all 0.3s ease .3s;
   transition: all 0.3s ease .3s;
 }
 
 nav ul a:hover {
-  border: solid 1px white;
+  border: solid 1px #696666;
 }
 
 nav ul .nav-item {
@@ -56,13 +56,52 @@ nav ul li {
 .banner {
   height: 80vh;
   width: 100%;
-  background-color: #426620;
 }
 
-.card {
-  border-radius: 25px;
-  background: #426620;
-  -webkit-box-shadow: 7px 7px 6px #3d5f1e, -7px -7px 6px #476d22;
-          box-shadow: 7px 7px 6px #3d5f1e, -7px -7px 6px #476d22;
+.cards {
+  margin: 3rem 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards .card {
+  padding: 2rem;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 43px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  -webkit-box-shadow: 17px 17px 12px #d6d6d6,  -17px -17px 12px #ffffff;
+          box-shadow: 17px 17px 12px #d6d6d6,  -17px -17px 12px #ffffff;
+}
+
+.blocks {
+  margin: 1rem;
+}
+
+.blocks .block {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  -webkit-box-shadow: 17px 17px 12px #d6d6d6,  -17px -17px 12px #ffffff;
+          box-shadow: 17px 17px 12px #d6d6d6,  -17px -17px 12px #ffffff;
+}
+
+footer {
+  margin: 2rem;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=styles.css.map */
