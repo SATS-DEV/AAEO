@@ -1,0 +1,62 @@
+#bannerBtn{
+    border-radius:40px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 30px;
+}
+
+.font{
+    font-family: "Geometria-Bold";
+}
+
+/* #headingContainer{
+    background-color: yellow;
+} */
+
+#bannerHeading{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.bannerImage{
+    width: 100%;
+    padding-top: 100px;
+}
+
+#paddingTop{
+    padding-top: 100px;
+}
+
+#allignCentre{
+    text-align: center;
+}
+
+/* @media only screen and (min-width:768px){
+    .banner-image{
+        width: 100%;
+    }
+} */
+
+
+#shadow{
+border-radius: 9px;
+background: #ffffff;
+box-shadow:  5px 5px 9px #c7c7c7, 
+             -5px -5px 9px #ffffff;
+}
+
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+
+
+.teamcad{
+    width: 100%;
+    margin-right: 30px;
+}
+
+.shadow2{
+    border-radius: 13px;
+    background: #ffffff;
+    box-shadow:  8px 8px 23px #e8e8e8, 
+                 -8px -8px 23px #ffffff;
+}
